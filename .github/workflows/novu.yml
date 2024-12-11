@@ -14,12 +14,12 @@ jobs:
           # The secret key used to authenticate with Novu Cloud
           # To get the secret key, go to https://dashboard.novu.co/api-keys.
           # Required.
-          secret-key: ${{ secrets.NOVU_SECRET_KEY }}
+          secret-key: 09c9b4716604d37cfb2cc80352cda97f
 
           # The publicly available endpoint hosting the bridge application
           # where notification entities (eg. workflows, topics) are defined.
           # Required.
-          bridge-url: ${{ secrets.NOVU_BRIDGE_URL }}
+          bridge-url: https://api.novu.co/bridge
 
           # The Novu Cloud API URL to sync with.
           # Optional.
